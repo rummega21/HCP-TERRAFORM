@@ -4,6 +4,6 @@ resource "aws_instance" "new_instance" {
   tags = {
     Name = "HelloWorld"
     env = "development"
-    system = "prd"
+    Rumesh = "prod"
   }
 }
